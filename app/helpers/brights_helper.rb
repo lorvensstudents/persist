@@ -1,0 +1,2 @@
+module BrightsHelper
+end

@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @bright.name %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @bright.age %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @bright.address %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @bright.phone %>
+</p>
+
+<%= link_to 'Edit', edit_bright_path(@bright) %> |
+<%= link_to 'Back', brights_path %>

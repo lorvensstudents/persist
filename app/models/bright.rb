@@ -1,0 +1,2 @@
+class Bright < ApplicationRecord
+end
